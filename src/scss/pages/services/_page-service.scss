@@ -7,13 +7,11 @@
 .service-single {
   h1.title {
     font-size: 3rem;
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: $font-family-heading;
     color: black;
   }
   .content {
     > p {
-      color:black;
-      font-family: 'Roboto', sans-serif;
       &:first-of-type {
         font-size: 24px;
         line-height: 32px;

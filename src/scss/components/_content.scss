@@ -17,7 +17,7 @@
     font-family: $font-family-base;
   }
   h1 {
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: $font-family-heading;
     line-height: 1.2;
     font-weight: $font-weight-light;
     color: black;
@@ -27,7 +27,7 @@
     }
   }
   h2 {
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: $font-family-heading;
     line-height: 1.4;
     font-weight: 400;
     color: black;
@@ -37,7 +37,6 @@
   }
   // Subheading
   h3 {
-    font-family: 'Roboto Slab', sans-serif;
     color: black;
     line-height: 1.4;
     font-weight: $font-weight-thin;
