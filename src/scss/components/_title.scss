@@ -1,4 +1,5 @@
 .title-1 {
+  font-family: 'Roboto Slab', sans-serif;
   color: $primary;
   font-size: 2.4rem;
   line-height: 1.2;
@@ -7,13 +8,13 @@
     font-size: 3rem;
   }
   &.black {
-    color: #222222;
+    color: black;
   }
 }
 .title-2 {
-  font-family: $font-family-base;
+  font-family: 'Roboto Slab', sans-serif;
   font-weight: light;
-  color: #333333;
+  color: black;
   font-size: 2.4rem;
   @include media-breakpoint-up(md) {
     font-size: 4rem;
@@ -23,9 +24,9 @@
   }
 }
 .title-3 {
-  font-family: $font-family-base;
+  font-family: 'Roboto Slab', sans-serif;
   font-weight: light;
-  color: #333333;
+  color: black;
   font-size: 1.6rem;
   @include media-breakpoint-up(sm) {
     font-size: 2rem;
