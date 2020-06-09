@@ -14,7 +14,7 @@
     align-items: center;
   }
   .footer-title {
-    color: black;
+    color: $primary;
     font-size: 1.3rem;
     font-family: $font-family-heading;
     margin-bottom: 10px;
@@ -37,7 +37,7 @@
         margin-right: 0;
       }
       a {
-        color: black;
+        color: $primary;
         text-decoration: none;
         &:hover {
           text-decoration: underline;
@@ -45,7 +45,7 @@
       }
       &.copyright {
         font-weight: bold;
-        color: black;
+        color: $primary;
       }
     }
     @include media-breakpoint-up(sm) {

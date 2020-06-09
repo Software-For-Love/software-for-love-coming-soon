@@ -32,7 +32,7 @@ h2 {
   font-family: $font-family-heading;
   line-height: 1.4;
   font-weight: 400;
-  color: black;
+  color: $primary;
   @include media-breakpoint-up(md) {
     font-size: 24px;
     line-height: 1.4;
@@ -41,7 +41,7 @@ h2 {
 
 // Subheading
 h3 {
-  color: black;
+  color: $primary;
   font-size: 16px;
   line-height: 1.4;
   font-weight: $font-weight-thin;

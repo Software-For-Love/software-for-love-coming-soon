@@ -1,5 +1,5 @@
 .intro {
-  font-family: 'Roboto', sans-serif;
+  font-family: $font-family-base;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -42,7 +42,7 @@
     font-size: 1.1rem;
     font-weight: lighter;
     line-height: 1.4;
-    color: $secondary;
+    color: $primary;
     @include media-breakpoint-up(sm) {
       width: 70%;
     }

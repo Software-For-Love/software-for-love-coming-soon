@@ -20,7 +20,7 @@
     font-family: $font-family-heading;
     line-height: 1.2;
     font-weight: $font-weight-light;
-    color: black;
+    color: $primary;
     @include media-breakpoint-up(md) {
       line-height: 1.2;
       font-weight: $font-weight-light;
@@ -30,14 +30,14 @@
     font-family: $font-family-heading;
     line-height: 1.4;
     font-weight: 400;
-    color: black;
+    color: $primary;
     @include media-breakpoint-up(md) {
       line-height: 1.4;
     }
   }
   // Subheading
   h3 {
-    color: black;
+    color: $primary;
     line-height: 1.4;
     font-weight: $font-weight-thin;
     letter-spacing: 1px;
