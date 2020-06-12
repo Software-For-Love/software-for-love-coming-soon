@@ -18,7 +18,7 @@ const Services = (props) => {
         </div>
       </div>
 
-      <div className="container pb-6">
+      {/* <div className="container pb-6">
         <div className="row">
           {services.map(edge => (
             <div key={edge.node.frontmatter.path} className="col-12 col-md-4 mb-1">
@@ -33,7 +33,7 @@ const Services = (props) => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </Layout>
   );
 };
