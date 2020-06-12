@@ -5,13 +5,13 @@ const Menu = (props) => {
   const { menuLinks } = props.data.site.siteMetadata;
   return (
     <div id="main-menu" className="main-menu">
-      {/* <ul>
+      {<ul>
         {menuLinks.map(link => (
           <li key={link.name}>
             <Link to={link.link}>{link.name}</Link>
           </li>
         ))}
-      </ul> */}
+      </ul>}
     </div>
   );
 };
