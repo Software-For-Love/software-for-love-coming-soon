@@ -15,7 +15,7 @@ const Contact = props => (
         </div>
       </div>
     </div>
-    <div className="container">
+    {/* <div className="container">
       <div className="row">
         <div className="col-12">
           <Call button={false} />
@@ -70,7 +70,7 @@ const Contact = props => (
           </table>
         </div>
       </div>
-    </div>
+    </div> */}
   </Layout>
 );
 

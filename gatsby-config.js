@@ -9,18 +9,18 @@ module.exports = {
       email: 'zerostaticthemes@gmail.com',
     },
     menuLinks: [
-      {
+      /* {
         name: 'Services',
         link: '/services',
-      },
+      }, */
       {
         name: 'Team',
         link: '/team',
       },
-      {
+      /* {
         name: 'Testimonials',
         link: '/testimonials',
-      },
+      }, */
       {
         name: 'Contact',
         link: '/contact',
@@ -37,6 +37,12 @@ module.exports = {
       options: {
         path: `${__dirname}/src/pages`,
         name: 'pages',
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options:{
+        trackingId: 'UA-169286415-1',
       },
     },
     {
