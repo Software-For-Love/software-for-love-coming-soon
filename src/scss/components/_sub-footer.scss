@@ -3,10 +3,29 @@
   background: darken($secondary, 10%);
   padding-top: 10px;
   padding-bottom: 10px;
+  display:inline-block;
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+      
+  }
+  .img1 img{
+    margin-left: 65px;
+    display:inline;
+    float:left;    
+    max-height: 50px;
+    max-width: 60px;
+  } 
 }
+
+
 .sub-footer {
   display: flex;
   justify-content: space-between;
+
+
   ul {
     list-style: none;
     margin: 0;
