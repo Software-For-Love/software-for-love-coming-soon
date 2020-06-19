@@ -4,23 +4,26 @@ import { StaticQuery, graphql } from 'gatsby';
 const Call = props => (
   <div className="call">
     <div className="call-box-top">
-      <div className="call-phone">
+      {/* <div className="call-phone">
         <strong>Phone: </strong>
         <a href={`tel:${props.data.site.siteMetadata.contact.phone}`}>
         {props.data.site.siteMetadata.contact.phone}
         </a>
-      </div>
+      </div> */}
       <div className="call-email">
-        <strong>Email: </strong>
+        {/* <strong>Email: </strong>
         <a href={`mailto:${props.data.site.siteMetadata.contact.email}`}>
           {props.data.site.siteMetadata.contact.email}
-        </a>
+        </a> */}
+        <form name="contact" method="post" action="#" data-netlify="true">
+        <input type="email" name="email" id="email" placeholder="Email"/>
+        </form>
       </div>
     </div>
     {props.button && (
       <div className="call-box-bottom">
         <a href="/contact" className="button">
-          Contact
+          Connect
         </a>
       </div>
     )}
@@ -37,7 +40,6 @@ export default props => (
             description
             contact {
               email
-              phone
             }
           }
         }
