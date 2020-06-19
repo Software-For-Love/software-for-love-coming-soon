@@ -5,13 +5,13 @@
  /* background-image: url('../images/19366.jpg');*/
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position:center center;
+  background-position:center top;
   background-attachment: fixed;
   background-size: cover; 
     
  @include media-breakpoint-up(sm) {
     background-size: 100%;
-    background-position: center center;
+    background-position: center top;
      -webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -21,7 +21,7 @@
   }
   @include media-breakpoint-up(md) {
     background-size: 100%;
-    background-position: center center;
+    background-position: center top;
     -webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;  
