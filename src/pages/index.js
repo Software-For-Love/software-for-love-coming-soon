@@ -20,7 +20,7 @@ const Home = (props) => {
       </Helmet>
       <div className="intro pb-4">
         <div className="container">
-          <h1>Serif - Gatsby Small Business Theme.</h1>
+          <h1>Software For Love</h1>
           <p>
             Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This
             is a beautiful and artfully designed starting theme.
