@@ -9,21 +9,18 @@ const Call = props => (
         <a href={`tel:${props.data.site.siteMetadata.contact.phone}`}>
         {props.data.site.siteMetadata.contact.phone}
         </a>
-      </div> */}
+      </div>
       <div className="call-email">
-        {/* <strong>Email: </strong>
+        <strong>Email: </strong>
         <a href={`mailto:${props.data.site.siteMetadata.contact.email}`}>
           {props.data.site.siteMetadata.contact.email}
-        </a> */}
-        <form name="contact" method="post" action="#" data-netlify="true">
-        <input type="email" name="email" id="email" placeholder="Email"/>
-        </form>
-      </div>
+        </a>
+      </div> */}
     </div>
     {props.button && (
       <div className="call-box-bottom">
         <a href="/contact" className="button">
-          Connect
+          Contact
         </a>
       </div>
     )}
@@ -39,6 +36,7 @@ export default props => (
             title
             description
             contact {
+              phone
               email
             }
           }
