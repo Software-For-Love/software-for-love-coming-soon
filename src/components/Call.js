@@ -16,11 +16,15 @@ const Call = props => (
           {props.data.site.siteMetadata.contact.email}
         </a>
       </div>
+      <div>
+      <strong><label for="email">Enter your email:</label></strong>
+      <input type="email" id="email" name="email"></input>
+      </div>
     </div>
     {props.button && (
       <div className="call-box-bottom">
-        <a href="/contact" className="button">
-          Contact
+        <a className="button">
+          Submit
         </a>
       </div>
     )}
