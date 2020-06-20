@@ -15,15 +15,14 @@ const Home = (props) => {
       <Helmet>
         <meta
           name="description"
-          content="Small Business Theme. Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This is a beautiful and artfully designed starting theme."
+          content="A charitable software solution organization based in Ottawa. We plan to work with young individuals to spread positivity and love through technology. Our main objective is to give back to the community in various ways."
         />
       </Helmet>
       <div className="intro pb-4">
         <div className="container">
-          <h1>Serif - Gatsby Small Business Theme.</h1>
+          <h1>Software For Love</h1>
           <p>
-            Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This
-            is a beautiful and artfully designed starting theme.
+            A charitable software solution organization based in Ottawa. We plan to work with young individuals to spread positivity and love through technology. Our main objective is to give back to the community in various ways.
           </p>
         </div>
       </div>
