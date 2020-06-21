@@ -34,6 +34,19 @@
       padding: 20px;
     }
   }
+  .email-input{
+    background: #DBD9D9;
+    border: none !important;
+    border-color: transparent !important;
+    width:75%;
+    outline: none;
+    color: #554F4F;
+  }
+  label {
+    color: #554F4F;
+    padding-right: 5%;
+    padding-left: 2%;
+  }
   .call-name {
     font-size: 1.1rem;
     font-weight: bold;

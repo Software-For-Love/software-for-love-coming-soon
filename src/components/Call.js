@@ -9,16 +9,14 @@ const Call = props => (
         <a href={`tel:${props.data.site.siteMetadata.contact.phone}`}>
         {props.data.site.siteMetadata.contact.phone}
         </a>
-      </div>
+      </div>*/}
       <div className="call-email">
-        <strong>Email: </strong>
+        {/* <strong>Email: </strong>
         <a href={`mailto:${props.data.site.siteMetadata.contact.email}`}>
           {props.data.site.siteMetadata.contact.email}
-        </a>
-      </div>*/}
-      <div>
-      <strong><label for="email">Enter your email:</label></strong>
-      <input type="email" id="email" name="email"></input>
+        </a> */}
+        <strong><label for="email">Email :</label></strong>
+        <input type="email" class="email-input" name="email" placeholder="Enter Your Email"></input>
       </div>
     </div>
     {props.button && (
