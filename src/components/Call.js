@@ -40,8 +40,8 @@ export default props => (
             title
             description
             contact {
-              email
               phone
+              email
             }
           }
         }

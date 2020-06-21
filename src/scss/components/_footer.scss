@@ -1,25 +1,32 @@
 .footer-strip {
   background: $secondary;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 1.25rem;
+  color:#FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
 .footer {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   align-items: flex-start;
+  text-align: center;
   @include media-breakpoint-up(sm) {
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
   }
   .footer-title {
-    color: $primary;
+    color: #fff;
     font-size: 1.3rem;
     font-family: $font-family-heading;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     flex: 0;
     @include media-breakpoint-up(sm) {
+      align-items: center;
       margin: 0;
     }
   }
@@ -27,25 +34,31 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    flex: 1;
+    flex: 0;
+    text-align: center;
     li {
       display: block;
-      margin-right: 10px;
-      font-size: 0.8rem;
-      color: #ffffff;
+      margin-right: 0px;
+      font-size: 20.8rem;
+      color: black;
+      text-align: center;
       &:last-of-type {
         margin-right: 0;
       }
       a {
-        color: $primary;
+        font-size: 1.75rem;
+        color: white;
         text-decoration: none;
+        text-align: center;
+        
         &:hover {
+          text-align: center;
           text-decoration: underline;
         }
       }
       &.copyright {
         font-weight: bold;
-        color: $primary;
+        color: #ffffff;
       }
     }
     @include media-breakpoint-up(sm) {
