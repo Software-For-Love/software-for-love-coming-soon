@@ -1,22 +1,6 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 
-var emailFeedBack = "";
-
-/* function validateEmail(){
-  var text = document.querySelector("email-input");
-  var regx = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-  console.log(text); // debuging
-  if (regx.test(text)){
-    document.querySelector("email-input").style.borderBottom="1px solid green";
-    emailFeedBack = "Thank you for signing up!";
-  } else {
-    document.querySelector("email-input").style.borderBottom="1px solid red";
-    emailFeedBack = "Email Invalid. Please try again";
-    console.log("false");
-  }
-} */
-
 const Call = props => (
   <div className="call">
     <div className="call-box-top">
@@ -35,13 +19,9 @@ const Call = props => (
         <input type="email"
         className="email-input"
         name="email"
-        placeholder="Enter Your Email"
+        placeholder="Enter your email"
         autoComplete="off"
-        style={{borderBottom : "1px solid red"}}
         />
-        <div id="Invalid Email"
-        style={ {color: "red"}, {fontSize: 10}}
-        >{emailFeedBack}</div>
       </div>
     </div>
     {props.button && (
