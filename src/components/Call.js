@@ -1,33 +1,62 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 
+var feedback="Thank you for signing up!"
+
+/* function textAppear() {
+  var text = document.getElementById("feedback-message");
+  text.style.display = "block";
+} */
+
+/* function checkIfValid() {
+  var inpObj = document.getElementById("email-input");
+  if (inpObj.checkValidity()) {
+    textAppear();
+  }
+} */
+
 const Call = props => (
-  <div className="call">
+  <div>
+  <form className="call">
     <div className="call-box-top">
       {/*<div className="call-phone">
         <strong>Phone: </strong>
         <a href={`tel:${props.data.site.siteMetadata.contact.phone}`}>
         {props.data.site.siteMetadata.contact.phone}
         </a>
-      </div>
+      </div>*/}
       <div className="call-email">
-        <strong>Email: </strong>
+        {/* <strong>Email: </strong>
         <a href={`mailto:${props.data.site.siteMetadata.contact.email}`}>
           {props.data.site.siteMetadata.contact.email}
-        </a>
-      </div>*/}
-      <div>
-      <strong><label for="email">Enter your email:</label></strong>
-      <input type="email" id="email" name="email"></input>
+        </a> */}
+        <strong><label htmlFor="email">Email :</label></strong>
+        <input type="email"
+        id="email-input"
+        className="email-input"
+        name="email"
+        placeholder="Enter your email"
+        autoComplete="off"
+        required
+        />
       </div>
     </div>
     {props.button && (
       <div className="call-box-bottom">
-        <a className="button">
-          Submit
-        </a>
+        <input 
+        className="button"
+        type="submit"
+        value="Submit"
+        style={{border:"none"}}
+        // onsubmit={"return checkIfValid()"}
+        />
       </div>
     )}
+  </form>
+  <div id="feedback-message"
+  style={{display:"none"}}>
+    {/* {feedback} */}
+  </div>
   </div>
 );
 
