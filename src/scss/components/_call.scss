@@ -46,7 +46,13 @@
     line-height: 40px;
     font-size: 15px;
     letter-spacing: 0.025em;
-    border-bottom : 1px solid black;
+    //border-bottom : 1px solid red;
+  }
+  input:invalid {
+    border-bottom : 2px solid red;
+  }
+  input:valid {
+    border-bottom : 2px solid rgb(71, 207, 71);
   }
   label {
     color: #554F4F;

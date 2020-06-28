@@ -1,8 +1,16 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 
+var feedback="Thank you for signing up!"
+
+function textAppear() {
+  var text = document.getElementById("feedback-message");
+  text.style.display = "block";
+}
+
 const Call = props => (
-  <div className="call">
+  <div>
+  <form className="call">
     <div className="call-box-top">
       {/*<div className="call-phone">
         <strong>Phone: </strong>
@@ -21,19 +29,26 @@ const Call = props => (
         name="email"
         placeholder="Enter your email"
         autoComplete="off"
+        required
         />
       </div>
     </div>
     {props.button && (
       <div className="call-box-bottom">
-        <a 
+        <input 
         className="button"
-        type="submit"
-        /* onClick={validateEmail()} */>
-          Submit
-        </a>
+        type="button"
+        value="Submit"
+        style={{border:"none"}}
+        onClick={textAppear}
+        />
       </div>
     )}
+  </form>
+  <div id="feedback-message"
+  style={{display:"none"}}>
+    {feedback}
+  </div>
   </div>
 );
 
