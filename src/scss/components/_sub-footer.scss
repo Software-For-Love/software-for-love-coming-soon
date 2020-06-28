@@ -26,39 +26,59 @@
       min-height: auto;
       
     } 
-    .linkedin img{
+    .linkedin{
      
       
       margin-left: 25px;
       margin-right: 25px;
-         
 
+
+         
     } 
-    .twitter img{
+    .linkedin svg:hover path {
+      fill: darken($secondary, 30%);
+    }
+
+    .twitter{
       
       
       margin-left: 25px;
       margin-right: 25px;
         
 
-    } 
-    .facebook img{
 
+    } 
+    .twitter svg:hover path {
+      fill: darken($secondary, 30%);
+    }
+    .facebook{
+
+      margin-left: 25px;
+      margin-right: 25px;
+
+
+
+    } 
+    .facebook svg:hover path {
+      fill: darken($secondary, 30%);
+    }
+    .mail {
+      
+      
       margin-left: 25px;
       margin-right: 25px;
       
 
     } 
-    .mail img{
-      
-      
-      margin-left: 25px;
-      margin-right: 25px;
-      
-
-    } 
-    
-      
+    .mail svg:hover path.mail1 {
+      fill: $secondary;
+    }
+    .mail svg:hover path.mail2 {
+      fill: lighten($secondary, 10%);
+    }
+    .mail svg:hover path.mail3 {
+      fill: darken($secondary, 30%);
+    }  
   }
 
 }
