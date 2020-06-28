@@ -3,10 +3,17 @@ import { StaticQuery, graphql } from 'gatsby';
 
 var feedback="Thank you for signing up!"
 
-function textAppear() {
+/* function textAppear() {
   var text = document.getElementById("feedback-message");
   text.style.display = "block";
-}
+} */
+
+/* function checkIfValid() {
+  var inpObj = document.getElementById("email-input");
+  if (inpObj.checkValidity()) {
+    textAppear();
+  }
+} */
 
 const Call = props => (
   <div>
@@ -25,6 +32,7 @@ const Call = props => (
         </a> */}
         <strong><label htmlFor="email">Email :</label></strong>
         <input type="email"
+        id="email-input"
         className="email-input"
         name="email"
         placeholder="Enter your email"
@@ -37,17 +45,17 @@ const Call = props => (
       <div className="call-box-bottom">
         <input 
         className="button"
-        type="button"
+        type="submit"
         value="Submit"
         style={{border:"none"}}
-        onClick={textAppear}
+        // onsubmit={"return checkIfValid()"}
         />
       </div>
     )}
   </form>
   <div id="feedback-message"
   style={{display:"none"}}>
-    {feedback}
+    {/* {feedback} */}
   </div>
   </div>
 );
