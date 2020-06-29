@@ -48,7 +48,6 @@ const Call = props => (
         type="submit"
         value="Submit"
         style={{border:"none"}}
-        pattern={email_pattern}
         // onsubmit={"return checkIfValid()"}
         />
       </div>
