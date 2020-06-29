@@ -32,6 +32,7 @@ const Call = props => (
         </a> */}
         <strong><label htmlFor="email">Email :</label></strong>
         <input type="email"
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
         id="email-input"
         className="email-input"
         name="email"
