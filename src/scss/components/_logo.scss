@@ -1,9 +1,12 @@
 .logo {
   display: none;
-  padding: 2px;
+  padding-top: 10px;
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box; 
   @include media-breakpoint-up(sm) {
     display: block;
-    width: 85px;
+    width: 70px;
   }
   img {
     border: 1px transparent;

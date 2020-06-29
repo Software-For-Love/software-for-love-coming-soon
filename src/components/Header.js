@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'gatsby';
 // import Menu from './Menu';
 // import Hamburger from './Hamburger';
-import logo from '../images/logo.png';
-import logoMobile from '../images/logo.png';
+import logo from '../images/softwareforlove.svg';
+import logoMobile from '../images/softwareforlove.svg';
 //import MenuMobile from './MenuMobile';
 
 class Header extends React.Component {
