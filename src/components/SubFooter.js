@@ -4,7 +4,7 @@ import linkedin from '../images/linkedin.svg';
 import twitter from '../images/twitter.svg';
 import facebook from '../images/facebook.svg';
 import gmail from '../images/gmail.svg';
-import logo from '../images/PlaceHolder-Logo.png';
+import logo from '../images/softwareforlove1.svg';
 import { Link } from 'gatsby';
 
 const SubFooter = props => (
