@@ -20,7 +20,7 @@ const Home = (props) => {
       </Helmet>
       <div className="intro pb-4">
         <div className="container">
-          <h1>Software For Love</h1>
+          <h1>Coming Soon!</h1>
           <p>
             A charitable software solution organization based in Ottawa. We plan to work with young individuals to spread positivity and love through technology. Our main objective is to give back to the community in various ways.
           </p>
