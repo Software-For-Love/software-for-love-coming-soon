@@ -2,7 +2,6 @@ import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 
 var feedback="Thank you for signing up!"
-
 /* function textAppear() {
   var text = document.getElementById("feedback-message");
   text.style.display = "block";
@@ -38,6 +37,7 @@ const Call = props => (
         placeholder="Enter your email"
         autoComplete="off"
         required
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
         />
       </div>
     </div>
@@ -48,6 +48,7 @@ const Call = props => (
         type="submit"
         value="Submit"
         style={{border:"none"}}
+        pattern={email_pattern}
         // onsubmit={"return checkIfValid()"}
         />
       </div>
