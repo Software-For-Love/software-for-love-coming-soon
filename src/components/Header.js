@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 // import Hamburger from './Hamburger';
 import logo from '../images/logo.png';
 import logoMobile from '../images/logo.png';
-import MenuMobile from './MenuMobile';
+//import MenuMobile from './MenuMobile';
 
 class Header extends React.Component {
   constructor(props) {
@@ -29,6 +29,7 @@ class Header extends React.Component {
               <img alt="Figurit Homepage" src={logo} />
             </Link>
           </div>
+        <h1> Software For Love </h1>
           <div className="logo-mobile">
             <Link to="/">
               <img alt="Figurit Homepage" src={logoMobile} />
