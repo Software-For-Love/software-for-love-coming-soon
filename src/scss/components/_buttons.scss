@@ -15,6 +15,7 @@
   text-decoration: none;
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
+  //border: 0ch;
   &:hover {
     color: black;
     background-color: darken($secondary, 10%);

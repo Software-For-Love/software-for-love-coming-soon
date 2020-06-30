@@ -1,7 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
-import favicon from '../images/logo.png';
+import favicon from '../images/softwareforlove.svg';
 
 const SEO = props => (
   <StaticQuery

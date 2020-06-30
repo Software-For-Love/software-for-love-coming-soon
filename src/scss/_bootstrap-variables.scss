@@ -29,9 +29,8 @@ $link-hover-color: lighten($primary, 20%);
 $link-hover-decoration: underline;
 
 // Fonts
-$font-family-base: 'Roboto', 'Helvetica Neue', Arial, sans-serif,
-  -apple-system;
-$font-family-heading: 'Roboto Slab', 'Helvetica Neue', Arial, sans-serif, -apple-system;
+$font-family-base: 'Playfair Display', serif;
+$font-family-heading: 'MuseoModerno', cursive;
 $font-size-base: 1rem; // Assumes the browser default, typically `16px`
 $font-weight-thin: 200;
 $font-weight-light: 300;
