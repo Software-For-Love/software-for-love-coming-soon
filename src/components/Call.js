@@ -16,9 +16,10 @@ var feedback="Thank you for signing up!"
 } */
 
 const Call = props => (
-  <div>
-  <form className="call">
+  <div className="call">
+  <form name="contact" method="POST" data-netlify="true">
     <div className="call-box-top">
+
       {/*<div className="call-phone">
         <strong>Phone: </strong>
         <a href={`tel:${props.data.site.siteMetadata.contact.phone}`}>
@@ -44,7 +45,7 @@ const Call = props => (
     </div>
     {props.button && (
       <div className="call-box-bottom">
-        <input 
+        <input
         className="button"
         type="submit"
         value="Submit"
