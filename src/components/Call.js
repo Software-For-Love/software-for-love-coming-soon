@@ -36,7 +36,7 @@ const Call = props => (
         id="email-input"
         className="email-input"
         name="email"
-        placeholder="Enter your email"
+        placeholder="Email address"
         autoComplete="off"
         required
         />
