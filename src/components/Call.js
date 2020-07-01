@@ -1,7 +1,27 @@
 import React from 'react';
-import { StaticQuery, graphql } from 'gatsby';
+import { StaticQuery, graphql, navigate } from 'gatsby';
 
 var feedback="Thank you for signing up!"
+
+function encode(data) {
+  return Object.keys(data)
+    .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .join('&')
+}
+
+function handleSubmit(e){
+  e.preventDefault()
+  const form = e.target
+  fetch('/', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: encode({
+      'form-name': form.getAttribute('name')
+    }),
+  })
+    .then(() => navigate(form.getAttribute('action')))
+    .catch((error) => alert(error))
+}
 
 /* function textAppear() {
   var text = document.getElementById("feedback-message");
@@ -17,7 +37,7 @@ var feedback="Thank you for signing up!"
 
 const Call = props => (
   <div className="call">
-  <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+  <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/" onSubmit={() => handleSubmit}>
     <input type="hidden" name="form-name" value="contact" />
     <div className="call-box-top">
 
