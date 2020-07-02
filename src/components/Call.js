@@ -17,7 +17,8 @@ var feedback = "Thank you for signing up!"
 
 const Call = props => (
   <div>
-    <form className="call">
+    <form className="call" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/" onSubmit={() => handleSubmit}>
+      <input type="hidden" name="form-name" value="contact" />
       <div className="call-box-top">
         {/*<div className="call-phone">
         <strong>Phone: </strong>
