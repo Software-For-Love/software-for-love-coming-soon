@@ -32,6 +32,7 @@
 .logo-mobile {
   display: block;
   width: 30px;
+  padding-top: 10px;
   @include media-breakpoint-up(sm) {
     display: none;
   }
