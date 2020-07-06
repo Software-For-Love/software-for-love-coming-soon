@@ -23,17 +23,17 @@ function handleSubmit(e){
     .catch((error) => alert(error))
 }
 
-/* function textAppear() {
+function textAppear() {
   var text = document.getElementById("feedback-message");
   text.style.display = "block";
-} */
+}
 
-/* function checkIfValid() {
+function checkIfValid() {
   var inpObj = document.getElementById("email-input");
   if (inpObj.checkValidity()) {
     textAppear();
   }
-} */
+}
 
 const Call = props => (
   <div>
@@ -70,14 +70,14 @@ const Call = props => (
             type="submit"
             value="Submit"
             style={{ border: "none" }}
-          // onsubmit={"return checkIfValid()"}
+            onSubmit={()=>checkIfValid()}
           />
         </div>
       )}
     </form>
     <div id="feedback-message"
       style={{ display: "none" }}>
-      {/* {feedback} */}
+      {feedback}
     </div>
   </div>
 );
