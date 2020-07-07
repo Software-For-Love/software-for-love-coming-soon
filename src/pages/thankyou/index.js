@@ -3,14 +3,17 @@ import SEO from '../../components/SEO';
 import Layout from '../../layouts/index';
 import Call from '../../components/Call';
 
-const Contact = props => (
+const Thankyou = props => (
   <Layout bodyClass="page-contact">
-    <SEO title="Contact" />
+    <SEO title="Thank You" />
     <div className="intro intro-small">
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <h1>Contact</h1>
+            <h1>Thank you!</h1>
+            <p>
+              Once your official website goes live, you will be the first to know! Also look out for newsletters, updates on our donations to charities and our progress as an organization.
+          </p>
           </div>
         </div>
       </div>
@@ -74,4 +77,4 @@ const Contact = props => (
   </Layout>
 );
 
-export default Contact;
+export default Thankyou;

@@ -23,7 +23,7 @@ module.exports = {
       }, */
       {
         name: 'Contact',
-        link: '/contact',
+        link: '/thankyou',
       },
     ],
   },
@@ -41,7 +41,7 @@ module.exports = {
     },
     {
       resolve: 'gatsby-plugin-google-analytics',
-      options:{
+      options: {
         trackingId: 'UA-169286415-1',
       },
     },

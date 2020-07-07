@@ -1,5 +1,5 @@
 import React from 'react';
-import { StaticQuery, graphql, navigate} from 'gatsby';
+import { StaticQuery, graphql, navigate } from 'gatsby';
 
 var feedback = "Thank you for signing up!"
 
@@ -9,7 +9,7 @@ function encode(data) {
     .join('&')
 }
 
-function handleSubmit(e){
+function handleSubmit(e) {
   e.preventDefault()
   const form = e.target
   fetch('/', {
@@ -37,7 +37,7 @@ function handleSubmit(e){
 
 const Call = props => (
   <div>
-    <form className="call" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/" onSubmit={() => handleSubmit}>
+    <form className="call" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/thankyou" onSubmit={() => handleSubmit}>
       <input type="hidden" name="form-name" value="contact" />
       <div className="call-box-top">
         {/*<div className="call-phone">
