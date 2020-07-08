@@ -2,9 +2,8 @@ import React from 'react';
 import SEO from '../../components/SEO';
 import Layout from '../../layouts/index';
 import Call from '../../components/Call';
-
 const Thankyou = props => (
-  <Layout bodyClass="page-contact">
+  <Layout bodyClass="page-thankyou">
     <SEO title="Thank You" />
     <div className="intro intro-small">
       <div className="container">
