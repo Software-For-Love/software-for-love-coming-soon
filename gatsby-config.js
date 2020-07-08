@@ -2,7 +2,7 @@ const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Serif',
+    title: 'Software For Love',
     description: 'my theme',
     contact: {
       phone: 'XXX XXX XXX',
@@ -23,7 +23,7 @@ module.exports = {
       }, */
       {
         name: 'Contact',
-        link: '/contact',
+        link: '/thankyou',
       },
     ],
   },
@@ -41,7 +41,7 @@ module.exports = {
     },
     {
       resolve: 'gatsby-plugin-google-analytics',
-      options:{
+      options: {
         trackingId: 'UA-169286415-1',
       },
     },

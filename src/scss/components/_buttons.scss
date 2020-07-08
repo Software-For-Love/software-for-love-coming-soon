@@ -5,7 +5,7 @@
   line-height: 40px;
   padding: 0 14px;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-  background: $secondary;
+  background: $secondary; //rgb(140, 145, 236); or // turquoise;
   border-radius: 4px;
   font-size: 15px;
   font-weight: 600;
@@ -15,6 +15,7 @@
   text-decoration: none;
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
+  //border: 0ch;
   &:hover {
     color: black;
     background-color: darken($secondary, 10%);
@@ -22,4 +23,17 @@
     box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
     text-decoration: none;
   }
+  &:active {
+    background-color: darken($secondary, 30%);
+  }
+
+  @include media-breakpoint-up(xs) {
+      padding: 0px 7px;
+    }
+  @include media-breakpoint-up(sm) {
+      padding: 0px 12px;
+    }
+   @include media-breakpoint-up(md) {
+      padding: 0px 14px;
+    }
 }
