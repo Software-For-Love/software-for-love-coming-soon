@@ -49,23 +49,23 @@
     background: #DBD9D9;
     border: 0;//none !important;
     //border-color: transparent !important;
-    width:75%;
-    outline: 0;//none;
+    width:90%;
+    outline: 0px;//none;
     color: #554F4F;
     height: 40px;
     display: inline-block;
     line-height: 40px;
-    font-size: 15px;
+    font-size: 16px;
     letter-spacing: 0.025em;
     //border-bottom : 1px solid red;
     @include media-breakpoint-up(xs) {
-      width: 50%;
+      width: 65%;
     }
     @include media-breakpoint-up(sm) {
-      width: 70%;
+      width: 85%;
     }
     @include media-breakpoint-up(md) {
-      width: 75%;
+      width: 90%;
     }
   }
   input:focus:invalid {
@@ -73,11 +73,6 @@
   }
   input:valid {
     border-bottom : 1px solid rgb(71, 207, 71);
-  }
-  label {
-    color: #554F4F;
-    padding-right: 5%;
-    padding-left: 2%;
   }
   .call-name {
     font-size: 1.1rem;

@@ -1,8 +1,6 @@
 import React from 'react';
 import { StaticQuery, graphql, navigate } from 'gatsby';
 
-var feedback = "Thank you for signing up!"
-
 function encode(data) {
   return Object.keys(data)
     .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
@@ -23,18 +21,6 @@ function handleSubmit(e) {
     .catch((error) => alert(error))
 }
 
-/* function textAppear() {
-  var text = document.getElementById("feedback-message");
-  text.style.display = "block";
-} */
-
-/* function checkIfValid() {
-  var inpObj = document.getElementById("email-input");
-  if (inpObj.checkValidity()) {
-    textAppear();
-  }
-} */
-
 const Call = props => (
   <div>
     <form className="call" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/thankyou" onSubmit={() => handleSubmit}>
@@ -51,7 +37,6 @@ const Call = props => (
         <a href={`mailto:${props.data.site.siteMetadata.contact.email}`}>
           {props.data.site.siteMetadata.contact.email}
         </a> */}
-          <strong><label htmlFor="email">Email :</label></strong>
           <input type="email"
             pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$"
             id="email-input"
@@ -68,17 +53,12 @@ const Call = props => (
           <input
             className="button"
             type="submit"
-            value="Submit"
+            value="Notify Me"
             style={{ border: "none" }}
-          // onsubmit={"return checkIfValid()"}
           />
         </div>
       )}
     </form>
-    <div id="feedback-message"
-      style={{ display: "none" }}>
-      {/* {feedback} */}
-    </div>
   </div>
 );
 
