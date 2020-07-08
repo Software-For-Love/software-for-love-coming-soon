@@ -40,4 +40,63 @@
     background-size: cover;  
     position: relative
   }
+  
+}
+.icons{
+  flex: 1;
+  float: center center;
+  display: inline-flex;
+.linkedin{
+   
+    
+  margin-left: 25px;
+  margin-right: 25px;
+
+
+     
+} 
+.linkedin svg:hover path {
+  fill: #F5D389;
+}
+
+.twitter{
+  
+  
+  margin-left: 25px;
+  margin-right: 25px;
+    
+
+
+} 
+.twitter svg:hover path {
+  fill: #F5D389;
+}
+.facebook{
+
+  margin-left: 25px;
+  margin-right: 25px;
+
+
+
+} 
+.facebook svg:hover path {
+  fill: #F5D389;
+}
+.mail {
+  
+  
+  margin-left: 25px;
+  margin-right: 25px;
+  
+
+} 
+.mail svg:hover path.mail1 {
+  fill: #F5D389;
+}
+.mail svg:hover path.mail2 {
+  fill: #F5D389;
+}
+.mail svg:hover path.mail3 {
+  fill: #8FCEED;
+}  
 }

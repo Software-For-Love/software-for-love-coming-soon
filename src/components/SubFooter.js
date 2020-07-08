@@ -12,7 +12,7 @@ const SubFooter = props => (
 
     <div className="container">
 
-    <div className="img1">
+    {/* <div className="img1">
             <img alt="logo" src={logo} />
           </div>
    
@@ -30,8 +30,8 @@ const SubFooter = props => (
             </div>
      <div className="mail">
             <a href="mailto:team@softwareforlove.com" target="_blank">
-              <svg id="Layer_1" height="30" viewBox="0 0 128 128" width="30" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"><path className="mail1" d="m6.5 24.192h115v79.615h-115z" fill="#f2f2f2"/><path className="mail2" d="m121.5 103.81h-115l57.5-67.59z" fill="#FFF"/><path className="mail3"d="m6.5 24.192 57.5 49.475 57.5-49.475z" fill="#5d9dbb"/></svg></a>
-            </div>
+              <svg id="Layer_1" height="30" viewBox="0 0 128 128" width="30" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"><path class="mail1" d="m6.5 24.192h115v79.615h-115z" fill="#f2f2f2"/><path class="mail2" d="m121.5 103.81h-115l57.5-67.59z" fill="#FFF"/><path class="mail3"d="m6.5 24.192 57.5 49.475 57.5-49.475z" fill="#5d9dbb"/></svg></a>
+            </div> */}
     </div>
   </div>
 );

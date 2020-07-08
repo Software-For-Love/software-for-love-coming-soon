@@ -1,85 +1,85 @@
 .sub-footer-strip {
-  // box-shadow: 0px -4px 9px 0 rgba(36, 50, 66, 0.15);
-  background: darken($secondary, 10%);
-  position: fixed;
-  overflow: hidden;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  display: flex;
-  min-height: 50px;
-  flex-direction: column;
-  .container {
-    flex: 1;
-    float: left;
-    display: inline-flex;
-    margin-left: 11.5%;
+  // // box-shadow: 0px -4px 9px 0 rgba(36, 50, 66, 0.15);
+  // background: darken($secondary, 10%);
+  // position: fixed;
+  // overflow: hidden;
+  // left: 0;
+  // bottom: 0;
+  // width: 100%;
+  // padding-top: 10px;
+  // padding-bottom: 10px;
+  // display: flex;
+  // min-height: 50px;
+  // flex-direction: column;
+  // .container {
+  //   flex: 1;
+  //   float: left;
+  //   display: inline-flex;
+  //   margin-left: 11.5%;
 
-    .img1 img{
-      position: absolute;
-      left: 85%;top:-4.5px;
-      max-height:115%;
-      max-width:100%;
-      min-width: auto;
-      min-height: auto;
+  //   .img1 img{
+  //     position: absolute;
+  //     left: 85%;
+  //     max-height: 40px;
+  //     max-width: 50px;
+  //     min-width: auto;
+  //     min-height: auto;
       
-    } 
-    .linkedin{
+  //   } 
+  //   .linkedin{
      
       
-      margin-left: 25px;
-      margin-right: 25px;
+  //     margin-left: 25px;
+  //     margin-right: 25px;
 
 
          
-    } 
-    .linkedin svg:hover path {
-      fill: darken($secondary, 30%);
-    }
+  //   } 
+  //   .linkedin svg:hover path {
+  //     fill: darken($secondary, 30%);
+  //   }
 
-    .twitter{
+  //   .twitter{
       
       
-      margin-left: 25px;
-      margin-right: 25px;
+  //     margin-left: 25px;
+  //     margin-right: 25px;
         
 
 
-    } 
-    .twitter svg:hover path {
-      fill: darken($secondary, 30%);
-    }
-    .facebook{
+  //   } 
+  //   .twitter svg:hover path {
+  //     fill: darken($secondary, 30%);
+  //   }
+  //   .facebook{
 
-      margin-left: 25px;
-      margin-right: 25px;
+  //     margin-left: 25px;
+  //     margin-right: 25px;
 
 
 
-    } 
-    .facebook svg:hover path {
-      fill: darken($secondary, 30%);
-    }
-    .mail {
+  //   } 
+  //   .facebook svg:hover path {
+  //     fill: darken($secondary, 30%);
+  //   }
+  //   .mail {
       
       
-      margin-left: 25px;
-      margin-right: 25px;
+  //     margin-left: 25px;
+  //     margin-right: 25px;
       
 
-    } 
-    .mail svg:hover path.mail1 {
-      fill: $secondary;
-    }
-    .mail svg:hover path.mail2 {
-      fill: lighten($secondary, 10%);
-    }
-    .mail svg:hover path.mail3 {
-      fill: darken($secondary, 30%);
-    }  
-  }
+  //   } 
+  //   .mail svg:hover path.mail1 {
+  //     fill: $secondary;
+  //   }
+  //   .mail svg:hover path.mail2 {
+  //     fill: lighten($secondary, 10%);
+  //   }
+  //   .mail svg:hover path.mail3 {
+  //     fill: darken($secondary, 30%);
+  //   }  
+  // }
 
 }
 
