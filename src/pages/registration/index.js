@@ -17,6 +17,7 @@ const RegistrationPage = props => (
             </div>
         </div>
 
+        /*this is a change*/
         <div className="container pt-2">
             <Call button />
         </div>
