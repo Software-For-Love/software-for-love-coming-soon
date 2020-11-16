@@ -7,6 +7,7 @@ function encode(data) {
     .join('&')
 }
 
+//HANDLE SUBMIT WITH A REDUX FORM  
 function handleSubmit(e) {
   e.preventDefault()
   const form = e.target
