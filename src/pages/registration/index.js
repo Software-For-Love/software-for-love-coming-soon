@@ -28,34 +28,42 @@ const RegistrationPage = props => (
                 </div>
             </div>
         </div>
+        
+        <div className="header">
+            <header>
+                <h1>SFL</h1>
+                <nav>
+                        <li>
+                            <Link to = "/"> Home</Link>
+                        </li>
+                        <li>
+                            <Link to = "/team"> Team </Link>           
+                        </li>
+                        <li>
+                            <Link to = "/services"> Services</Link>           
+                        </li>
+                        <li>
+                            <Link to = "/testimonials"> Testimonials</Link> 
+                        </li>          
+                </nav>
+            </header>
+            <div className="icons">
+                <div className="github">
+                    <a href="https://github.com/Software-For-Love/software-for-love-coming-soon" target="_blank">
+                    <svg enable-background="new 0 0 24 24" height="30" viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg"><g fill="#8FCEED"><path d="m23.994 24v-.001h.006v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07v-2.185h-4.773v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243v7.801z" /><path d="m.396 7.977h4.976v16.023h-4.976z" /><path d="m2.882 0c-1.591 0-2.882 1.291-2.882 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909c-.001-1.591-1.292-2.882-2.882-2.882z" /></g></svg></a>
+                </div>
+                <div className="linkedln">
+                    <a href="https://www.linkedin.com/company/software-for-love/" target="_blank">
+                    <svg enable-background="new 0 0 24 24" height="30" viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg"><g fill="#8FCEED"><path d="m23.994 24v-.001h.006v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07v-2.185h-4.773v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243v7.801z" /><path d="m.396 7.977h4.976v16.023h-4.976z" /><path d="m2.882 0c-1.591 0-2.882 1.291-2.882 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909c-.001-1.591-1.292-2.882-2.882-2.882z" /></g></svg></a>
+                </div>
+                <div className="facebook">
+                    <a href="https://facebook.com/softwareforlove/" target="_blank">
+                    <svg enable-background="new 0 0 24 24" height="30" viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg"><path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-6.932 0-5.046 7.85-5.322 9h-3.487v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877c.188-2.824-.761-5.016 2.051-5.016z" fill="#8FCEED" /></svg></a>
+                </div>
+            </div>
+        </div>
+
     </Layout>
+);
 
 export default RegistrationPage;
-
-/* const Header = () => {
-    return(
-        <header>
-            <h1>Ali </h1>
-            <nav>
-                <ul>
-                    <li>
-                        <Link to = "/"> Home</Link>
-                    </li>
-                    <li>
-                        <Link to = "/blog"> Blog </Link>           
-                    </li>
-                    <li>
-                        <Link to = "/about"> About</Link>           
-                    </li>
-                    <li>
-                        <Link to = "/contact"> Contact!</Link> 
-                    </li>          
-                </ul>
-            </nav>
-        </header>
-    )
-}
-
-//header
-
-export default Header; */
