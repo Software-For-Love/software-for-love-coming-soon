@@ -1,6 +1,6 @@
 .page-registration{
-    background: rgb(143,206,237);
-   background: linear-gradient(180deg, rgba(143,206,237,1) 3%, rgba(255,255,255,0) 12%),url('../images/pexels-burst-374023.jpg');
+  background: rgb(143,206,237);
+  background: linear-gradient(180deg, rgba(143,206,237,1) 3%, rgba(255,255,255,0) 12%),url('../images/pexels-burst-374023.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
   background-position:center center;
@@ -45,6 +45,21 @@
   float: center center;
   display: inline-flex;
 .google-forms{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.twitter{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.instagram{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.gmail{
   margin-left: 25px;
   margin-right: 25px;
 }
