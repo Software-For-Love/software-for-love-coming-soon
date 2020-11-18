@@ -38,15 +38,44 @@
     background-size: cover;  
     position: relative
   }
+
+}
+.header{
+  background: rgb(143,206,237);
+  background: linear-gradient(180deg, rgba(143,206,237,1) 3%, rgba(255,255,255,0) 12%),url('../images/header.jpg');
+  /* background-image: url('../images/19366.jpg');*/
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position:center center;
+  background-attachment: fixed;
+  background-size: cover; 
 }
 
 .icons{
   flex: 1;
   float: center center;
   display: inline-flex;
-.google-forms{
+
+.github{
   margin-left: 25px;
   margin-right: 25px;
+}
+.github svg:hover path {
+  fill: #F5D389;
+}
+.linkedin{ 
+  margin-left: 25px;
+  margin-right: 25px;
+} 
+.linkedin svg:hover path {
+  fill: #F5D389;
+}
+.facebook{
+  margin-left: 25px;
+  margin-right: 25px;
+} 
+.facebook svg:hover path {
+  fill: #F5D389;
 }
 
 .twitter{
