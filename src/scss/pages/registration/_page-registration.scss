@@ -41,24 +41,36 @@
 
 }
 .header{
-  background: rgb(143,206,237);
-  background: linear-gradient(180deg, rgba(143,206,237,1) 3%, rgba(255,255,255,0) 40%),url('../images/header.jpg');
-  /* background-image: url('../images/19366.jpg');*/
-  background-repeat: repeat;
-  background-size: 100%;
-  background-position:top top;
-  background-attachment: fixed;
-  background-size: cover; 
+  background: rgb(0, 0, 0);
+  color: #fff;;
+  width: 100%;
+  position: fixed;
+  padding: 0px 0;
+  top: 10;
 
+}
+
+// Edits the layout for the navigator for weblinks
+nav a{
+  color: #fff;
+  text-decoration: none;
+  padding: 0px 2px;
+  display: inline-block;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto; /* Center the DIV horizontally */
 }
 
 .icons{
   flex: 1;
   float: center center;
   display: inline-flex;
+  align-items: center;
 
 .github{
-  margin-left: 25px;
+  margin-left: 950px;
   margin-right: 25px;
 }
 .github svg:hover path {

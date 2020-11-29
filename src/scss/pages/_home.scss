@@ -46,28 +46,25 @@
   flex: 1;
   float: center center;
   display: inline-flex;
-.linkedin{
-   
+
+  .linkedin{
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .linkedin svg:hover path {
+    fill: #F5D389;
+  }
+
+  .twitter{
     
-  margin-left: 25px;
-  margin-right: 25px;
-
-
-     
-} 
-.linkedin svg:hover path {
-  fill: #F5D389;
-}
-
-.twitter{
-  
-  
-  margin-left: 25px;
-  margin-right: 25px;
     
+    margin-left: 25px;
+    margin-right: 25px;
+      
 
 
-} 
+  } 
 .twitter svg:hover path {
   fill: #F5D389;
 }
