@@ -1,53 +1,22 @@
 .page-registration{
-    background: rgb(143,206,237);
-   background: linear-gradient(180deg, rgba(143,206,237,1) 3%, rgba(255,255,255,0) 12%),url('../images/pexels-burst-374023.jpg');
-  background-repeat: no-repeat;
+  background: rgb(143,206,237);
+  background: linear-gradient(180deg, rgba(143,206,237,1) 3%, rgba(255,255,255,0) 12%),url('../images/pexels-burst-374023.jpg');
+  background-repeat: repeat;
   background-size: 100%;
-  background-position:center center;
+  background-position:top top;
   background-attachment: fixed;
   background-size: cover; 
-    
- @include media-breakpoint-up(sm) {
-    background-size: 100%;
-    background-position: center center;
-     -webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;  
-     
-  }
-  @include media-breakpoint-up(md) {
-    background-size: 100%;
-    background-position: center center;
-    -webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;  
-    background-size: cover;
-    background-attachment: fixed;   
-  }
-  @include media-breakpoint-up(lg) {
-    background-size: 100%;
-    background-position:center top;
-   /* background-position: -10px 150px*/
-    -webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;  
-    background-attachment: fixed;  
-    background-color: #464646;
-    background-size: cover;  
-    position: relative
-  }
-
 }
-.header{
-  background: rgb(0, 0, 0);
-  color: #fff;;
-  width: 100%;
-  position: fixed;
-  padding: 0px 0;
-  top: 10;
 
+.header{
+  background: rgb(22, 153, 29);
+  color: rgb(129, 31, 31);
+  width: 100%;
+  position: center;
+  padding: 0px 100px;
+  top: 100;
+  position: top;
+  align-items: top;
 }
 
 // Edits the layout for the navigator for weblinks
@@ -56,11 +25,16 @@ nav a{
   text-decoration: none;
   padding: 0px 2px;
   display: inline-block;
+  position: top;
+  align-items: top;
 }
 
 .container{
-  width: 80%;
-  margin: 0 auto; /* Center the DIV horizontally */
+  width: 100%;
+  margin: 0 auto; 
+  padding: 0px 2px;
+  position: top;
+  align-items: top; /* Center the DIV horizontally */
 }
 
 .icons{
@@ -70,7 +44,7 @@ nav a{
   align-items: center;
 
 .github{
-  margin-left: 950px;
+  margin-left: 600px;
   margin-right: 25px;
 }
 .github svg:hover path {
