@@ -1,9 +1,9 @@
 .page-registration{
-  background: rgb(143,206,237);
+  background: rgb(8, 183, 236);
   background: linear-gradient(180deg, rgba(143,206,237,1) 3%, rgba(255,255,255,0) 12%),url('../images/pexels-burst-374023.jpg');
   background-repeat: repeat;
   background-size: 100%;
-  background-position:top top;
+  background-position:top;
   background-attachment: fixed;
   background-size: cover; 
 }
@@ -12,9 +12,9 @@
   background: rgb(22, 153, 29);
   color: rgb(129, 31, 31);
   width: 100%;
-  position: center;
-  padding: 0px 100px;
-  top: 100;
+  position: relative;
+  padding: 10px 0;
+  top: 0;
   position: top;
   align-items: top;
 }
@@ -23,18 +23,18 @@
 nav a{
   color: #fff;
   text-decoration: none;
-  padding: 0px 2px;
+  padding: 5px;
   display: inline-block;
   position: top;
-  align-items: top;
+  align-items: center;
 }
 
-.container{
+.containerpt-3{
   width: 100%;
   margin: 0 auto; 
-  padding: 0px 2px;
-  position: top;
-  align-items: top; /* Center the DIV horizontally */
+  padding: 0px;
+  position: relative;
+  align-items: center; /* Center the DIV horizontally */
 }
 
 .icons{

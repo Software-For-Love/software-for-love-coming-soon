@@ -7,7 +7,7 @@ const RegistrationPage = props => (
     <Layout bodyClass = "page-registration">
         <SEO title="Register" />
         <div className="intro intro-small">
-            <div className="container">
+            <div className="containerpt-3">
                 <div className="row">
                     <div className="col-12">
                         <h1>Sign Up</h1>
@@ -29,7 +29,7 @@ const RegistrationPage = props => (
         </div>
         
         <div class="header">
-            <div class="container">
+            <div class="containerpt-3">
                     <nav>
                         <Link to = "/"> Home </Link>
                         <Link to = "/team"> Team </Link>
