@@ -9,42 +9,33 @@
 }
 
 .header{
-  background: rgb(22, 153, 29);
-  color: rgb(129, 31, 31);
   width: 100%;
-  position: relative;
-  padding: 10px 0;
+  position: fixed;        
+  background: rgb(0, 0, 0);
+  padding: 8px 0;
+  color: #fff;
   top: 0;
-  position: top;
-  align-items: top;
 }
 
 // Edits the layout for the navigator for weblinks
 nav a{
   color: #fff;
-  text-decoration: none;
-  padding: 5px;
+  text-decoration: solid;
+  padding: 10px 15px;
   display: inline-block;
-  position: top;
-  align-items: center;
 }
 
-.containerpt-3{
-  width: 100%;
-  margin: 0 auto; 
-  padding: 0px;
-  position: relative;
-  align-items: center; /* Center the DIV horizontally */
+.contain{
+  width: 80%;
+  margin: 0 auto;
 }
 
 .icons{
-  flex: 1;
-  float: center center;
   display: inline-flex;
   align-items: center;
 
 .github{
-  margin-left: 600px;
+  margin-left: 950px;
   margin-right: 25px;
 }
 .github svg:hover path {
