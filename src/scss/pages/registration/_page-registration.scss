@@ -8,23 +8,58 @@
   background-size: cover; 
 }
 
+.intro intro-small{
+  display: inline-flex;
+  align-items: center;
+
+.contain{
+  display: inline-flex;
+  align-items: center;
+}
+.row{
+  display: inline-flex;
+  align-items: center;
+}
+.col-12{
+  display: inline-flex;
+  align-items: center;
+  position: fixed;
+  
+}
+}
+
+.icons{
+  display: inline-flex;
+  align-items: center;
+
+.sign-up-forms{
+
+}
+}
+
+//header portion of the background
 .header{
   width: 100%;
   position: fixed;        
   background: rgb(0, 0, 0);
-  padding: 8px 0;
+  padding: 40px 0;
   color: #fff;
   top: 0;
+  text-align: center;
 }
 
 // Edits the layout for the navigator for weblinks
 nav a{
   color: #fff;
   text-decoration: solid;
-  padding: 10px 15px;
+  padding: 75px 20px;
   display: inline-block;
+  align-items: center;
+  text-align: center;
+  left: -50%;
 }
 
+//Edits the contents of the page
 .contain{
   width: 80%;
   margin: 0 auto;
