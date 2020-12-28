@@ -23,9 +23,9 @@
 .col-12{
   display: inline-flex;
   align-items: center;
-  position: fixed;
-  
+  position: absolute;
 }
+  margin: 14 32 14 14;
 }
 
 .icons{
@@ -33,7 +33,7 @@
   align-items: center;
 
 .sign-up-forms{
-
+  margin: 14 14 14 14;
 }
 }
 
@@ -51,12 +51,13 @@
 // Edits the layout for the navigator for weblinks
 nav a{
   color: #fff;
+  position: relative;
   text-decoration: solid;
-  padding: 75px 20px;
+  padding: 80px 60px;
   display: inline-block;
   align-items: center;
   text-align: center;
-  left: -50%;
+  right: -65%;
 }
 
 //Edits the contents of the page
