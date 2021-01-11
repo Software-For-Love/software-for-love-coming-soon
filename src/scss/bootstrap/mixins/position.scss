@@ -1,0 +1,8 @@
+@mixin setPosition($position, $top, $right, $bottom, $left){
+    position: relative;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+}
+  
