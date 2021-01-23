@@ -1,0 +1,122 @@
+.page-registration{
+    background: linear-gradient(180deg, rgb(0, 0, 0) 7%, rgba(255,255,255,0) 12%), url('../images/pexels-burst-374023.jpg');
+    background-repeat: repeat;
+    background-size: 100%;
+    background-position:top;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .intro intro-small{
+    display: inline-flex;
+    align-items: center;
+  
+  .contain{
+    position: relative;
+    left: -350px;
+    display: inline-flex;
+    align-items: center;
+  }
+  .row{
+    display: inline-flex;
+    align-items: center;
+  }
+  .col-12{
+    display: inline-flex;
+    align-items: center;
+    position: absolute;
+  }
+    margin: 14 32 14 14;
+  }
+
+  .content {
+    align-items: center;
+    
+  }
+
+  nav {
+    float: right;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 52px;
+    padding-top: 23px;
+    position: relative;
+  }
+  
+  nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: solid;
+    font-size: 18px;
+  }
+
+  nav a:hover {
+    color: rgb(0, 217, 255);
+  }
+  
+  nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 20px;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+  }
+  
+  nav a:hover::before {
+    width: 100%;
+  }
+  
+  .icons{
+    display: inline-flex;
+    align-items: center;
+  
+  .sign-up-forms{
+    margin: 14 14 14 14;
+  }
+  }
+  
+  //Edits the contents of the page
+  .contain{
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .icons{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    top: -83px;
+    left: 150px;
+  
+  .github{
+    margin-left: 950px;
+    margin-right: 25px;
+  }
+  .github svg:hover path {
+    fill: #F5D389;
+  }
+  .linkedin{ 
+    margin-left: 10px;
+    margin-right: 10px;
+  } 
+  .linkedin svg:hover path {
+    fill: #F5D389;
+  }
+  .facebook{
+    margin-left: 25px;
+    margin-right: 25px;
+  } 
+  .facebook svg:hover path {
+    fill: #F5D389;
+  }
+  }
