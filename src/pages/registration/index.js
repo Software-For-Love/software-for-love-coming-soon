@@ -54,12 +54,13 @@ const RegistrationPage = props => (
                 </div>
             </div>
         </div>
-            
-        <div classname="container">
-            <script language="javascript" src="Chatbot.js"></script>
-            <df-messenger chat-title="Chatbot" chat-icon="logo" chatagent-id="ffe0d018-692b-4bfc-a66c-aaaee0e94987" language-code="en">
-            </df-messenger>
-        </div>
+
+        <script language="javascript" src="chatbot.js"></script>
+        <df-messenger
+            chat-title="Chatbot"
+            agent-id="ffe0d018-692b-4bfc-a66c-aaaee0e94987"
+            language-code="en"
+        ></df-messenger>
     </Layout>
 );
 
